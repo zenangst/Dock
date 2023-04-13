@@ -2,7 +2,9 @@
 
 ## Description
 
-Interact with the Dock using `CoreDockSendNotification` on macOS in pure Swift.
+Interact with the Dock using `CoreDockSendNotification` private API on macOS in pure Swift.
+**Note** that this is not meant for apps that are distributed on the App Store,
+they will be rejected.
 
 The API couldn't be simpler.
 
