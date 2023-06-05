@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "Dock",
-  platforms: [.macOS(.v13)],
+  platforms: [.macOS(.v12)],
   products: [
     .library(name: "Dock", targets: ["Dock"]),
   ],
